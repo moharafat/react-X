@@ -1,14 +1,12 @@
-import Greet from "./Components/Greeting";
-import ProductInfo from "./Components/ProductInfo";
-
 const App = () => {
   return (
-    <div>
-      {/* <label htmlFor="acoount_number">account number</label>
-        <input type="text" placeholder="CX Account #" /> */}
-      <Greet />
-      <ProductInfo />
-    </div>
+    <user
+      img="https://avatars.githubusercontent.com/u/moharafat"
+      name="HUXN WEB"
+      age={12}
+      isMarried={false}
+      hobbies={("coding", "Reading", "Sleeping")}
+    />
   );
 };
 export default App;
