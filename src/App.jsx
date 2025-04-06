@@ -1,23 +1,23 @@
 import React from "react";
-import Card from "./Components/Card";
 
-const App = () => {
+const Cart = () => {
+  const items = ["Wirless Earbuds", "Power bank", "SSD", "Hoddie"];
   return (
     <div>
-      <Card>
-        <h1> My card </h1>
-        <p>This is some content for card1</p>
-      </Card>
-      <Card>
-        <h1> My card 2</h1>
-        <p>This is some content for card1</p>
-      </Card>
-      <Card>
-        <h1> My card3</h1>
-        <p>This is some content for card1</p>
-      </Card>
+      <h1>Cart </h1>
+      {items.length > 0 && <h2>You have {items.length} inside your Cart</h2>}
+      <ul>
+        <h4>Products</h4>
+        {items.map((item) => (
+          <li key={Math.random()}>{item}</li>
+        ))}
+      </ul>
     </div>
   );
+};
+
+const App = () => {
+  return <Cart />;
 };
 
 export default App;
