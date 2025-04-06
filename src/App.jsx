@@ -8,6 +8,14 @@ const App = () => {
         <h1> My card </h1>
         <p>This is some content for card1</p>
       </Card>
+      <Card>
+        <h1> My card 2</h1>
+        <p>This is some content for card1</p>
+      </Card>
+      <Card>
+        <h1> My card3</h1>
+        <p>This is some content for card1</p>
+      </Card>
     </div>
   );
 };
