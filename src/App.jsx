@@ -1,12 +1,23 @@
 const App = () => {
   return (
-    <user
-      img="https://avatars.githubusercontent.com/u/moharafat"
-      name="HUXN WEB"
-      age={12}
+    <User
+      name="7amo"
+      age={33}
       isMarried={false}
-      hobbies={("coding", "Reading", "Sleeping")}
+      hobbies={["coding", "running"]}
     />
   );
 };
+
+const User = (props) => {
+  console.log(props);
+  return <section>
+    <h1>Name: {props.name}</h1>
+    <h2>age: {props.age}</h2>
+    <h3>married?: {props.isMarried}</h3>
+    <h3>hobbies: {props.hobbies}</h3>
+
+  </section>;
+};
+
 export default App;
