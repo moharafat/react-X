@@ -1,23 +1,12 @@
 import React from "react";
+import Greeting from "./Components/Greeting";
 
-const Cart = () => {
-  const items = ["Wirless Earbuds", "Power bank", "SSD", "Hoddie"];
+function App() {
   return (
     <div>
-      <h1>Cart </h1>
-      {items.length > 0 && <h2>You have {items.length} inside your Cart</h2>}
-      <ul>
-        <h4>Products</h4>
-        {items.map((item) => (
-          <li key={Math.random()}>{item}</li>
-        ))}
-      </ul>
+      <Greeting timeOfDay="morning" />
     </div>
   );
-};
-
-const App = () => {
-  return <Cart />;
-};
+}
 
 export default App;
