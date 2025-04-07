@@ -4,7 +4,7 @@ import Greeting from "./Components/Greeting";
 function App() {
   return (
     <div>
-      <Greeting timeOfDay="afternoon" />
+      <Greeting timeOfDay="morning" />
         </div>
   );
 }
