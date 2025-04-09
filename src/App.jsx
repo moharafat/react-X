@@ -1,12 +1,16 @@
+import { FaCartArrowDown } from "react-icons/fa";
+import { PiTextbox } from "react-icons/pi";
 import React from "react";
-import Greeting from "./Components/Greeting";
+import "./index.css";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Greeting timeOfDay="morning" />
-        </div>
+    <section>
+      <FaCartArrowDown />
+      <PiTextbox />
+      <h1>Damn hommie</h1>
+    </section>
   );
-}
+};
 
 export default App;
