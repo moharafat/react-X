@@ -1,0 +1,18 @@
+body {
+  background: rgb(12, 255, 215);
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; */
+}
+* {
+  padding: 20;
+  margin: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+  border: 2px solid #ccc;
+  padding: 20px;
+  text
+}
