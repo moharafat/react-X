@@ -1,17 +1,14 @@
 import { FaCartArrowDown } from "react-icons/fa";
 import { PiTextbox } from "react-icons/pi";
 import React from "react";
-import "./index.css";
+// import "./index.css";
 import StyledCard from "./Components/StyledCard";
-import ProfileCard from "./Components/ProfileCard";
-
-const App = () => {
+function App() {
   return (
-    <section>
+    <div>
       <StyledCard />
-      <ProfileCard />
-    </section>
+    </div>
   );
-};
+}
 
 export default App;
