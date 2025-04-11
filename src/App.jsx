@@ -4,11 +4,13 @@ import React from "react";
 // import "./index.css";
 import StyledCard from "./Components/StyledCard";
 import ProfileCard from "./Components/ProfileCard";
+import IconComponent from "./Components/IconComponent";
 function App() {
   return (
     <div>
       <StyledCard />
       <ProfileCard />
+      <IconComponent />
     </div>
   );
 }

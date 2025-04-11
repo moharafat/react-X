@@ -1,9 +1,13 @@
-import React from 'react'
+import { FaBeer } from "react-icons/fa";
 
 const IconComponent = () => {
   return (
-    <div>IconComponent</div>
-  )
-}
+    <div style={{ background: "pink" }}>
+      <FaBeer />
+      <FaBeer size={30} />
+      <FaBeer size={100} color="gold" />
+    </div>
+  );
+};
 
-export default IconComponent
+export default IconComponent;
