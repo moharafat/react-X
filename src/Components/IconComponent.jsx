@@ -4,7 +4,7 @@ const IconComponent = () => {
   return (
     <div style={{ background: "pink" }}>
       <FaBeer />
-      <FaBeer size={30} />
+      <FaBeer size={0} />
       <FaBeer size={100} color="gold" />
     </div>
   );
