@@ -1,13 +1,14 @@
-import React from 'react'
-import IconComponent from './Components/IconComponent'
+const Button = () => {
+  const handleClick =() => console.log(Math.round(Math.random() * 1000))
+  return <button onClick={handleClick}>Don't</button>;
+};
 
 const App = () => {
   return (
     <section>
-      <IconComponent/>
-      <button></button>
+      <Button />
     </section>
-  )
-}
+  );
+};
 
-export default App
+export default App;
