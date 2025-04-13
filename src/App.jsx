@@ -1,12 +1,14 @@
-const Button = () => {
-  const handleClick =() => console.log(Math.round(Math.random() * 1000))
-  return <button onClick={handleClick}>Don't</button>;
-};
+import { useState } from "react";
 
 const App = () => {
+  const [count, setCount] = useState(0);
+  const increment =() => setCount(count + 1)
+  const Decrement =() => setCount(count - 1)
   return (
     <section>
-      <Button />
+      <h1>{count}</h1>
+      <button onClick={increment}>ADD</button>
+      <button onClick={Decrement}>SUB</button>
     </section>
   );
 };
