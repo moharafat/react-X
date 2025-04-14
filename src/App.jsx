@@ -4,7 +4,10 @@ const App = () => {
   const [friends, setFriends] = useState(["Alex", "john"]);
   const addOneFriend = () => setFriends([...friends, "7ammmo"]);
   const removeFriend = () => setFriends(friends.filter((f) => f != "john"));
-  const updateFriend = () => setFriends 
+  const update1Friend = () => {
+    setFriends(friends.map(f => f=== 'Alex' ? 'Alex Smith' : f))
+    }
+  
   return (
     <section>
       {friends.map((f) => (
@@ -12,7 +15,7 @@ const App = () => {
       ))}
       <button onClick={addOneFriend}>Add new Friend</button>
       <button onClick={removeFriend}>Remove john</button>
-      <button onClick={}>update 1 friend</button>
+      <button onClick={update1Friend}>update 1 friend</button>
     </section>
   );
 };
