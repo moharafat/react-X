@@ -1,10 +1,18 @@
-import ExampleThree from "./Components/ExampleThree";
+import Counter from "./Counter";
+// import TodoList from "./TodoList";
+// import Profile from "./Profile";
+// import ShoppingList from "./ShoppingList";
 
-const App = () => {
+function App() {
   return (
     <div>
-      <ExampleThree />
+      <h1>React useState Examples</h1>
+      <Counter />
+      {/* <TodoList />
+      <Profile />
+      <ShoppingList /> */}
     </div>
   );
-};
+}
+
 export default App;
