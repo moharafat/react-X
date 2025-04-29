@@ -1,5 +1,5 @@
 import Counter from "./Counter";
-// import TodoList from "./TodoList";
+import TodoList from "./TodoList";
 // import Profile from "./Profile";
 // import ShoppingList from "./ShoppingList";
 
@@ -8,8 +8,8 @@ function App() {
     <div>
       <h1>React useState Examples</h1>
       <Counter />
-      {/* <TodoList />
-      <Profile />
+      <TodoList />
+      {/* <Profile />
       <ShoppingList /> */}
     </div>
   );
