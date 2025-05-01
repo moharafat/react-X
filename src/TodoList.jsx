@@ -12,7 +12,7 @@ const TodoList = () => {
     }
   };
   const handleChange = (e) => {
-    setInputValue(e.target.value );
+    setInputValue(e.target.value);
   };
 
   return (
