@@ -1,12 +1,13 @@
 import { useState } from "react";
-
-const handleChange = (e) => {
-  const { name, value } = e.target;
-  SetProfile((prevProfile) => ({
-    ...prevProfile,
-    [name]: value,
-  }));
-};
+const Profile = () => {
+  const [profile, SetProfile] = useState({ id: "", age: "" });
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    SetProfile((prevProfile) => ({
+      ...prevProfile,
+      [name]: value,
+    }));
+  };
   return (
     <div>
       <h3>User Profile</h3>
