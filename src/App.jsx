@@ -1,7 +1,7 @@
 import Counter from "./Counter";
 import TodoList from "./TodoList";
 import Profile from "./Profile";
-// import ShoppingList from "./ShoppingList";
+import ShoppingList from "./ShoppingList";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       {/* <Counter />
       <TodoList /> */}
       <Profile />
-      {/* <ShoppingList /> */}
+      <ShoppingList />
     </div>
   );
 }
