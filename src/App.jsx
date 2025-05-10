@@ -1,18 +1,12 @@
-import Counter from "./Counter";
-import TodoList from "./TodoList";
-import Profile from "./Profile";
-import ShoppingList from "./ShoppingList";
-
+import { useState, useEffect } from "react";
 function App() {
-  return (
-    <div>
-      <h1>React Test</h1>
-      {/* <Counter />
-      <TodoList /> */}
-      <Profile />
-      <ShoppingList />
-    </div>
-  );
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    async function getdata() {
+      await fetch()
+    }
+  }, []);
+  return <div></div>;
 }
 
 export default App;
