@@ -7,6 +7,7 @@ const UserProfile = () => {
     <div>
       <h1>UserProfile</h1>
       <p>Name: {user.name}</p>
+      <p>Age:{user.age}</p>
     </div>
   );
 };
